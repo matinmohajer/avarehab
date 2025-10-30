@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp.cjs
+.pnp.loader.mjs
+.pnp/**
+
+# Next.js
+.next/
+out/
+.vercel/
+.next-static/
+
+# Build outputs
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing/coverage
+coverage/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Cache
+.next/cache/
+.turbo/
+.cache/
+.parcel-cache/
+.eslintcache
+stylelintcache
+
+# Package managers
+.npm/
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Misc
+*.local
+*.swp
+*.swo
